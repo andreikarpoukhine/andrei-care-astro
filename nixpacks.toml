@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["python311", "gcc", "sqlite"]
+aptPkgs = ["libsqlite3-dev"]
 
 [phases.build]
 cmds = ["pip install -r requirements.txt"]
